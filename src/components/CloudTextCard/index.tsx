@@ -8,13 +8,9 @@ interface IProps {
 
 const CloudTextCard = ({ text }: IProps) => 
   <div className={styles.container}>
-    <div className={styles.cloud}>
-      <div className={styles.cloudChild} />
-      <div className={styles.cloudChild} />
-      <div className={styles.cloudChild} />
-    </div>
-    <div className={cn(styles.cloudSec, styles.cloud)} />
-    <div className={styles.text}>{text}</div>
-  </div>;
+    {
+      text.split('').map((item, idx) => <div className={styles.cloudChild} key={idx}>{item}</div>)
+    }
+  </div>
 
 export default CloudTextCard;

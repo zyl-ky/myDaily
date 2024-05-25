@@ -7,27 +7,27 @@ import cn from 'classnames';
 const StupidDaily = [
   {
     img: require('../../images/stupid01.png'),
-    desc: '呆 滞'
+    desc: '呆滞'
   },
   {
     img: require('../../images/stupid02.jpg'),
-    desc: '摆 烂'
+    desc: '摆烂'
   },
   {
     img: require('../../images/stupid03.jpg'),
-    desc: '晚 安'
+    desc: '晚安'
   },
   {
     img: require('../../images/stupid04.jpg'),
-    desc: '发 疯'
+    desc: '发疯'
   },
   {
     img: require('../../images/stupid05.jpg'),
-    desc: '可 爱'
+    desc: '可爱'
   },
   {
     img: require('../../images/stupid06.jpg'),
-    desc: '生 气'
+    desc: '生气'
   }
 ]
 
