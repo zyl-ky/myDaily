@@ -1,0 +1,45 @@
+.container {
+  writing-mode: vertical-rl;
+  width: 30px;
+  height: 120px;
+  border-radius: 15px;
+  padding: 15px 5px;
+  background-color: #fff;
+  margin: 30px 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.text {
+  z-index: 999;
+  position: absolute;
+  top: 15px;
+  left: 8px;
+}
+
+.cloud {
+  width: 50px;
+  height: 150px;
+  position: absolute;
+  background-color: transparent;
+  display: flex;
+  top: 0;
+  left: -5px;
+  z-index: 2;
+}
+
+.cloudSec {
+  background-color: #fff;
+  border-radius: 25px;
+  width: 30px;
+  left: 5px;
+}
+
+.cloudChild {
+  width: 50px;
+  height: 50px;
+  border-radius: 35px;
+  background-color: #fff;
+  z-index: 1;
+  box-shadow: -5px 3px 3px #d3d3d3;
+}

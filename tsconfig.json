@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+    /* Language and Environment */
+    "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "moduleDetection": "auto",                        /* Control what method is used to detect module-format JS files. */
+    "jsx": "react",
+    /* Modules */
+    "module": "commonjs",                              
+    "esModuleInterop": true,                            
+    "forceConsistentCasingInFileNames": true,            
+
+    "strict": false,                                   
+    "skipLibCheck": true,
+    "types": ["*.d.ts", "./src", "node"]             
+  }
+}
