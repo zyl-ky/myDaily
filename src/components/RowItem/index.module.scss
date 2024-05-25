@@ -1,9 +1,26 @@
 .rowItem {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
   overflow: auto;
+  height: 100%;
+}
+
+.title {
+  border-bottom: 1px solid #c9c7c7;
+  padding: 16px 24px;
+  margin: 12px;
+  font-size: 32px;
+  font-weight: 500;
+  color: #1f2329;
+  line-height: 24px;
+  text-align: center;
+}
+
+.itemContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
