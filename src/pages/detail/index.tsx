@@ -16,6 +16,9 @@ const Detail = () => {
     const prevId =( Number(id) - 1 + length) % length;
     setSearchParams({ id: String(prevId) });
   }
+  const goBack = () => {
+    window.location.href = '/';
+  }
   return (
     <div className={styles.container}>
       <div className={styles.title}>{title}</div>
@@ -25,6 +28,7 @@ const Detail = () => {
       </div>
       <div className={styles.footer}>
         <div className={styles.btn} onClick={gotoPrev}>上一页</div>
+        <div className={styles.btn} onClick={goBack}>返回首页</div>
         <div className={styles.btn} onClick={gotoNext}>下一页</div>
       </div>
     </div>

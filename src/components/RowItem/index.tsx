@@ -28,7 +28,9 @@ const RowItem = () => {
       <div className={styles.title}>
         笨笨列表
       </div>
-      {Items}
+      <div className={styles.itemContainer}>
+        {Items}
+      </div>
     </div>
   )
 }
